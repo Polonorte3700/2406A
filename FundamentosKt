@@ -1,5 +1,31 @@
-
 fun main() {
-    println("nu peguei")
- println("sem querer")} 
-//---------------------------------------------------------------------------------------//
+    println("Banana Banana Banana Banana Banana Banana") //exibir msg no console 
+
+/*ele 
+ * é
+ * um comentario maior
+ */
+ //Variaveis - elas armazenam info
+ 
+ //variaveis mutaveis - seu valor pode ser alterado ---------- var ------- não pode ser mudado o tipo
+ //variaveis não mutaveis - seu valor não pode ser mutado --------- val ---------- não pode ser mudado o tipo
+ //
+ //Tipos de variaveis 
+ //
+ //Boolean - true or false
+ //String - Caracteres no geral ... entre ASPAS DUPLAS - sem limite de caracteres 
+ //Char - apenas 1 digito de caractere... dentro de ASPAS SIMPLES 
+ //Int - numeros inteiros 
+ //Double - numeros decimais, com limite de ate 7 digitos apos a virgula - arredonda o numero
+ //Float - numeros decimais, com um limite de até 14 digitos apos a virgula - arredonda o numero
+ //Long - numeros longos com muitos digitos inteiro, ou decimal 
+ //
+ //Estrutura de uma variavel
+ // 
+ //var nome = valor 
+ //     ou
+ //val nome: Tipo
+
+ var professor = "Rodinei"
+ var professor: String
+}
