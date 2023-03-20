@@ -84,4 +84,45 @@ var idade1 = 16
     println("$nome2:kkkkk ela sempre se refere as pessoas assim, é o jeitinho dela")
     println("$nome1:kkkk sim, por isso que eu virei amigo dela")
 }
-//-----------------------------------------
+
+//---------------------------------------------------------------------------------
+fun main() {
+    
+    //Operadores Matemáticos
+    // + -> adição
+    // - -> subtração
+    // / -> divisão
+    // * -> multiplicação
+    // % -> módulo - resto de divisão
+    //
+    //var halls = 6
+    //var freegells = 6
+    
+    //println(halls % freegells)
+    
+    // EXERCICIO - faça uma calculadora que contenha cada um dos operadores matemáticos
+    // como resultado ao cálculo de duas variaveis (contendo resultado para +, -, /, * e %),
+    // contendo tbm uma interface simples
+    
+    var tipov = 9
+    var tipou = 5
+    
+    println("||----------------- Calculadora de calvice -----------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v + calvice tipo u--------------||")
+    println("||----------------------------${(tipov + tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v - calvice tipo u--------------||")
+    println("||-----------------------------${(tipov - tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v / calvice tipo u--------------||")
+    println("||-----------------------------${(tipov / tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calcice tipo v * calvice tipo u--------------||")
+    println("||----------------------------${(tipov * tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v % calvice tipo u--------------||")
+    println("||----------------------------${(tipov % tipou)}-----------------------------||")
+    
+}
+//-------------------------------------------------------------------------------------------------------------------------
