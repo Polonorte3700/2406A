@@ -127,3 +127,120 @@ fun main() {
 }
 //-------------------------------------------------------------------------------------------------------------------------
 
+fun main() {
+    
+    //Operadores Matemáticos
+    // + -> adição
+    // - -> subtração
+    // / -> divisão
+    // * -> multiplicação
+    // % -> módulo - resto de divisão
+    //
+    //var halls = 6
+    //var freegells = 6
+    
+    //println(halls % freegells)
+    
+    // EXERCICIO - faça uma calculadora que contenha cada um dos operadores matemáticos
+    // como resultado ao cálculo de duas variaveis (contendo resultado para +, -, /, * e %),
+    // contendo tbm uma interface simples
+    
+   /* var tipov = 9
+    var tipou = 5
+    
+    println("||----------------- Calculadora de calvice -----------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v + calvice tipo u--------------||")
+    println("||----------------------------${(tipov + tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v - calvice tipo u--------------||")
+    println("||-----------------------------${(tipov - tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v / calvice tipo u--------------||")
+    println("||-----------------------------${(tipov / tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calcice tipo v * calvice tipo u--------------||")
+    println("||----------------------------${(tipov * tipou)}----------------------------||")
+    println("||----------------------------------------------------------||")
+    println("||-------------calvice tipo v % calvice tipo u--------------||")
+    println("||----------------------------${(tipov % tipou)}-----------------------------||")
+    */
+    
+    //Operadores Relacinais
+    //
+    // == -> Igual a...
+    // != -> Diferente de...
+    // ! -> Negando valor
+    // > -> maior que...
+    // >= -> maior ou igual
+    // <= -> menor ou igual
+    // 
+    // Operadores não relacional
+    // 
+    // ++ -> add mais 1 ao valor
+    // -- -> elimina 1 do valor
+    // += -> add um valor determinado a outro
+    // -= -> elimina um valor determinado de outro
+    // 
+    /*
+    var clauldetty = 50 
+    var josias = 30 
+    var berennice = 90 
+    var bernnadetthy = 80
+    
+    println(clauldetty)
+    clauldetty++
+    println(clauldetty)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berennice)
+    berennice += 10
+    println(berennice)
+    berennice += clauldetty
+    println(berennice)
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias
+    println(bernnadetthy)
+    */
+    
+    //Condições if...else
+    //
+    //se... não
+    //
+    //estrutura:
+    //
+    //if... else simples
+    //
+    //if(condição){
+    //ação
+    //}else{
+    //ação
+    //}
+   /* 
+    var interrupitor = true
+    
+    if(interrupitor == true){
+        println("luz acesa")
+    }else{
+        println("luz apagada")
+    }
+    */
+    var fome = true
+    
+    if(!fome){
+        println("alimente-se!")
+    }else{
+        println("alimentou-se")
+    }
+    
+    
+    
+    
+}
+
+//-----------------------------------------------------------------------------------------------------
+
