@@ -244,3 +244,68 @@ fun main() {
 
 //-----------------------------------------------------------------------------------------------------
 
+fun main() {
+    /*
+    var senha = "333a"
+    
+    if(senha == "azeitona"){
+        println("Bem vindo Sr Stark")
+    }else{
+        println("Senha incorreta, tente novamente")
+    }
+    */
+    //if...else composto
+    //
+    //com o if...else composto, são permitidos, comparar mais de duas condições (o simples e o else), através do "else if"
+    //
+    /*
+    var corações = 5
+    if(corações >= 5){
+        println("Você esta muito saldável! Parabéns")
+    }else if(corações == 4){
+        println("Você ta top")
+    }else if(corações == 3){
+        println("Você ta decente")
+    }else if(corações == 2){
+        println("Você ta mal")
+    }else if(corações == 1){
+        println("Você ta morrendo")
+    }else{
+        println("bem vindo ao vasco")
+    }
+    */
+    
+    //1- faça um programa usando duas variaveis que representem cada uma, um número.
+    //ele(programa) deve verficar qual dos dois é maior numero e imprimilo no console
+    //
+  
+    
+    var salario = 600
+    var boletos = 700 
+    println("         resposta 1")
+    if(salario <= boletos){
+        println("Slk mo B.O to devendo 100 ainda")
+    }else{
+        println("Ufa slk deu pra pagar esse mês")
+    }
+    
+    println("         resposta 2")
+    
+    //2-
+    
+    var capivara = 1
+    
+    if(capivara > 0){
+        println("Nu meu fiii slk as capivara")
+    }else if(capivara < 0){
+        println("F as capivars foram jogar no vasco")
+    }else{
+        println("cade as capivaras")
+    }
+       
+    
+    
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------
+
