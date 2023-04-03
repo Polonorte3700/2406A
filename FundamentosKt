@@ -376,3 +376,62 @@ fun main() {
     
 }
 //--------------------------------------------------------------------------------------------
+fun main() {
+ //Na patica Operadores Lógicos
+ //
+ //minha mãe pediu para eu ir na loja de talheres e ela falou:
+ //traga uma concha de feijão, se tiver garfo, faca e colher
+ //
+/* var garfo = false
+ var faca = true
+ var colher = true
+    
+    //println(garfo && faca)
+    println(garfo && (faca || colher))
+   */ 
+  /*  
+    // Show do Pericles
+    // pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos e estar acompanhado pelos pais
+    // 
+    var idade = 15
+    var comPais = false
+    var identidade = true
+    
+    if(idade < 18){
+        if((idade >= 12 && identidade == true) || comPais == true){
+            
+       println("aproveite o show menozin ")
+        }else{
+            println("vai pra casa meno")
+        }
+    }else{
+       println("bom show")
+    }
+    
+    // não a hirarquia entre comparações 
+    
+    //Exercício -> No metroid vania, para a tela de game over, seus corações precisam ser igual a zero e 
+    //suas vidas precisam ser menor ou igual a zero
+    
+    //simule com operadores logicos quando ele vai para a game over e quando ele sai
+    
+    */
+     var gameover = true
+    var coracoes = -1
+    var vidas = 1
+    
+    if(coracoes >= 0){
+        if(vidas <= 0 || gameover == true){
+            
+       println("vc foi de base ")
+        }else{
+            println("foi de base")
+        }
+    }else{
+       println("ufa tais vivo")
+    }
+    
+    
+    
+}
+//-----------------------------------------------------------------------
