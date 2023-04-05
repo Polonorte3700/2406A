@@ -435,3 +435,81 @@ fun main() {
     
 }
 //-----------------------------------------------------------------------
+fun main() {
+   
+    //Exercício -> No metroid vania, para a tela de game over, seus corações precisam ser igual a zero e 
+    //suas vidas precisam ser menor ou igual a zero
+    
+    //simule com operadores logicos quando ele vai para a game over e quando ele sai
+  /*  
+    var coracoes = 1
+    var vidas = 3
+    
+    if(coracoes == 0 <= 0){
+        println("game over !!")
+    }else{
+        println("o jogo continua")
+    }
+    */
+    
+    //When = Quando
+    //
+    //coparação de quando um valor for igual e um determinado valor,
+    //uma determinada ação sera executada 
+    //
+    //estrutura do When
+    //
+    //var auxiliar = valor
+    //
+    //When(auxiliar){
+    //
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //valor -> {ação}
+    //else -> {ação}
+    //}
+    //sará usado geralmente quando durante o programa o valor da variavel
+    //não for estetico, ou seja, ele estiver mudando
+    //
+    
+    var mes = 5
+    
+    when(mes){
+       1 -> {println("Lisboa")} 
+       2 -> {println("Nova York")} 
+       3 -> {println("Rio Janeiro")} 
+       4 -> {println("São Paulo")}
+       5 -> {println("Keyland")} 
+       6 -> {println("Miwaukee") }
+       7 -> {println("Barcelona")}
+       8 -> {println("Springfield")}
+       9 -> {println("Los Pollos Hermanos")}
+       10 -> {println("Elmore")}
+       11 -> {println("Toronto")}
+       12 -> {println("Seoul")}
+       else -> {println("Acordou")}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+//---------------------------------------------------------------------------
