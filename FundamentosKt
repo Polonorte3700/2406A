@@ -513,3 +513,43 @@ fun main() {
 
 
 //---------------------------------------------------------------------------
+fun main() {
+    //exercicio -> dia 10/04
+   
+    var diasemana = 1
+    
+    when(diasemana){
+        
+        1 -> println("Domingo, não é util igual vc")
+        2 ->println("Segunda, dia util, pra quem?")
+        3->println("terça, é util mas ninguem lembra")
+        4 ->println("Quarta, é util e a semana já ta no meio")
+        5 ->println("quinta, é util mas quem se importa")
+        6 ->println("sexta, é util, melhor dia")
+        7 ->println("sabado, não é util, não sou eu que to dizendo")
+        8 ->println("feriado, não é util mas é muito bom")
+        
+    }
+    
+    when(diasemana){
+        2,
+        3,
+        4,
+        5,
+        6 -> {println("dia util seja produtivo")}
+        else ->{println("fim de semana")}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
