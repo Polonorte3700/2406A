@@ -835,3 +835,63 @@ class Animal(var especie:String,
 }    
  
  //---------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    //exercicio -> faça o catalogo ficticio de animais que estão no zoologico de sp
+    //com no minimo 20 animais, sem repetição de raça
+    
+    var animal1 = animal("gato","persa",7,"ratos","pequeno")
+    var animal2 = animal("gato","Minie coon",9,"variado","grande")
+    var animal3 = animal("cachorro","não definida",10,"qualquer coisa","variado")
+    var animal4 = animal("dog","pincher",90,"chinelo","pequeno")
+    var animal5 = animal("gato","siamês",9,"uiscas saxe","pequeno")
+    var animal6 = animal("gato","ragdoll",6,"variado","pequeno")
+    var animal7 = animal("gato","sphynx",4,"variado","pequno")
+    var animal8 = animal("dog","golden",3,"variado","grande")
+    var animal9 = animal("dog","chitso",2,"variado","pequeno")
+    var animal10 = animal("dog","pastor alemão",13,"variado","pequena")
+    var animal11 = animal("dog","yasa",9,"variado","pequeno")
+    var animal12 = animal("peixe","peixa boi",6,"variado","medio")
+    var animal13 = animal("peixe","peixe espada",9,"variado","grande")
+    var animal14 = animal("tigre","tigre branco",19,"carne","grande")
+    var animal15 = animal("tigre","ligre",11,"carne","grande")
+    var animal16 = animal("baleia","gilfinho",8,"variado","peixe")
+    var animal17 = animal("baleia","orca",70,"carne","medio")
+    var animal18 = animal("baleia","jubart",20,"fitoplancton","grande")
+    var animal19 = animal("ornitorinco","ornitorinco",9,"variado","pequeno")
+    var animal20 = animal("arara","arar-azul",9,"variado","grande")
+    
+    println(animal1.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal2.especie +","+ animal2.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal3.especie +","+ animal3.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal4.especie +","+ animal4.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal5.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal6.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal7.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal8.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal9.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal10.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal11.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal12.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal13.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal14.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal15.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal16.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal17.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal18.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal19.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    println(animal20.especie +","+ animal1.raca +","+ animal1.idade +","+ animal1.dieta +","+ animal1.porte)
+    
+    
+}
+
+
+class animal(var especie:String,
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+    
+    
+}    
+//------------------------------------------------------------------------------------------------------------
