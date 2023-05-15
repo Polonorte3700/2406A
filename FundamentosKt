@@ -895,3 +895,32 @@ class animal(var especie:String,
     
 }    
 //------------------------------------------------------------------------------------------------------------
+fun main() {
+    //Metodos - atividades, ações, que o obj pode realizar
+    var animalzin = animal("Cachorro", "Golden",8,"chinelo","grande")
+    
+    animalzin.comer("chinelo")
+    var anima = animal("golfinho","boto",50,"sardinha", "pqn")
+    
+    anima.correr(120,"Acre")
+    
+}
+
+class animal(var especie:String,
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+    
+    //fun(nomeDoParametro: tipoDoParametro){
+    //ação
+    //}
+   fun comer(alimento: String){
+       println("$especie comendo $alimento, humm chega a manteiga derrete")
+   }
+   
+   fun correr(velocidade:Double, lugar: String){
+       println("$especie corendo em uma velocidade de $velocidade km/h no $lugar")
+   }
+}    
+//-----------------------------------------
